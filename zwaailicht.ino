@@ -53,7 +53,7 @@ static int do_turn(int argc, char *argv[])
 
 const cmd_t commands[] = {
     { "help", do_help, "Show help" },
-    { "turn", do_turn, "<on/off> Turn on or off" },
+    { "turn", do_turn, "<time> Turn zwaailicht on for <time ms" },
     { NULL, NULL, NULL }
 };
 
